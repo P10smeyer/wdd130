@@ -37,12 +37,14 @@ aside {
     padding: 1em;
     background-color: #d9e8eb;
     color: #333;  */
+    position: relative;
     text-align: center;
 }
 
 aside h2{
-    position: relative;
-    top: 75px;
+    position: absolute;
+    top: 50px;
+    left: 725px;
     color: rgb(175, 185, 185);
     font-size: 50px;
 }
