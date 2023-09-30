@@ -65,7 +65,7 @@ nav a:hover {
 .hero h1 {
     position: absolute;
 	text-shadow: 0 0 15px #333;
-	border-bottom: 1\px solid #999;
+	border-bottom: 1px solid #999;
 	margin-bottom: 0.3rem;
     top: 250px;
     left: 150px;
