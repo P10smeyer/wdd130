@@ -87,7 +87,7 @@ footer {
 }
 
 /* Class Selectors */
-.box {
+.box2 {
     position: relative;
     margin: 1rem;
     border: 10px solid rgb(207, 214, 218);
@@ -97,7 +97,7 @@ footer {
     width: fit-content;
 }
 
-.box2 {
+.box {
     position: relative;
     margin: 1rem;
     border: 10px solid rgb(207, 214, 218);
