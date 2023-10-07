@@ -19,6 +19,12 @@ body {
     width: 25%;
 }
 
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color)
@@ -36,8 +42,12 @@ p{
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
+    text-wrap: nowrap;
+    border: 2px solid black;
+    box-shadow: 5px 10px rgb(97, 95, 95);
+    width: fit-content;
 }
 
 nav a {
@@ -45,6 +55,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+
 }
 
 nav a:link, nav a:visited {
@@ -56,32 +67,127 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero img {
+.hero {
     position: relative;
-    display: block;
+    margin-top: 1rem;
+}
+
+.hero img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background: radial-gradient(#eee, #a19e9b);
+    opacity: 0.8;  
+    font-size: 20px;  
+    font-weight: bold;
+    text-align: center;
 }
 
 .hero h1 {
     position: absolute;
+    top: 10px;
+    left: 200px;
+    text-shadow: 0 0 15px #333;
+	border-bottom: 1px solid #999;
+	margin-bottom: 0.3rem;
+    color: white;
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    color: white;
+    float: left;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.history h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.history img {
+    width: 40%;
+    margin: 10px;
+}
+
+.history p {
+    background-color: var(--secondary-color);
+    border: 3px solid black;
+    box-shadow: 5px 10px 5px 5px rgb(97, 95, 95);
+    width: 50%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.adventure {
+    display: flex;
+}
+
+.adventure img {
+    width: 15%;
+    margin: 10px
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    
+}
+
+footer {
+    text-decoration: none;
+    width: fit-content;
+    float: right;
+}
+
+/* .hero h1 {
+    position: absolute;
 	text-shadow: 0 0 15px #333;
 	border-bottom: 1px solid #999;
 	margin-bottom: 0.3rem;
-    top: 250px;
+    top: 200px;
     left: 150px;
     color: white;
     height: 100%;
     width: 100%;
-}
+    grid-row: 1 / span 2;
+} */
 
-.customers {
+/* .customers {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
     box-sizing: border-box;
     left: 15px;
-    top: 480px;
+    top: 425px;
 	right: 650px;
 	background: radial-gradient(#eee, #a19e9b);
 	border: 1px solid white;
@@ -96,9 +202,7 @@ nav a:hover {
 
 .customers p {
     margin-top: -10px;
-}
+} */
 
-footer {
-    text-decoration: none;
-}
+
 
