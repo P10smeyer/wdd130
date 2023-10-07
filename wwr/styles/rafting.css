@@ -5,11 +5,12 @@
     --secondary-color: #8ECAE6;
     --accent1-color: #FFB703;
     --accent2-color: #FB8500;
+    --heading-color: rgb(34, 54, 168);
 
     --heading-font: "Teko", sans-serif;
     --paragraph-font: "Roboto", sans-serif;
 
-    --nav-background-color: rgb(167, 164, 164);
+    --nav-background-color: rgb(34, 34, 34);
     --nav-link-color: white;
     --nav-hover-link-color: white;
     --nav-hover-background-color: #8ECAE6;
@@ -32,7 +33,7 @@ h1 {
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--heading-color)
 }
 
 p{
