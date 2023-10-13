@@ -82,6 +82,8 @@ button {
     width: 100%;
     margin: 0 auto;
     border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
 }
 
 button:hover {
