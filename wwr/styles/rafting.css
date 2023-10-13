@@ -121,8 +121,10 @@ nav a:hover {
 }
 
 .history img {
-    width: 40%;
+    width: 350px;
+    height: 350px;
     margin: 10px;
+    margin-left: 550px;
 }
 
 .history p {
@@ -132,11 +134,10 @@ nav a:hover {
     width: 30%;
     float: right;
     padding: 10px;
-    margin-right: 10%;
-    margin-top: 15%;
-    text-align: center;
+    margin-right: 15%;
+    text-align: justify;
     font-weight: bold;
-    font-size: x-large;    
+    font-size: 2rem;    
 }
 
 .adventure {
