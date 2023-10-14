@@ -43,7 +43,8 @@ nav {
     display: flex;
     border: 2px solid black;
     box-shadow: 5px 10px rgb(97, 95, 95);
-    width: fit-content;
+    width: 350px;
+    margin-right: 1300px;
 }
 
 nav a {
@@ -180,4 +181,121 @@ footer {
     width: fit-content;
     float: right;
     margin-bottom: 30px;
+    width: 30%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+.contact-us h1, .fieldset h3{
+    font-family: var(--heading-font);
+    font-weight: bold;
+    color: rgb(2, 4, 105);
+}
+
+.contact-us h2 {
+    text-align: left;
+    margin-left: 175px;
+    padding-bottom: 10px;
+}
+
+.flex img {
+    width: 25px;
+    height: 25px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.column1 {
+    float: left;
+    margin-right: 25px;
+    margin-top: -25px;
+}
+
+.column1 span {
+    position: relative;
+    top: -5px;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+    margin-right: 25px;
+    margin-top: -20px;
+}
+
+.column3 {
+    margin-top: -82px;
+}
+
+.column3 img {
+    width: 200px;
+    height: 150px;
+    margin-top: -20px;
+}
+
+form {
+    display: grid;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 400px;
+    border-radius: 1rem;
+    border: 1px solid rgb(0, 0, 0, 1);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    border: 0;
+}
+
+fieldset p {
+    margin-top: -30px;
+    font-size: smaller;
+}
+
+label, input {
+    display: block;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: -2px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.radio label {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+button {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: var(--heading-font);
+    background-color: rgb(2, 4, 105);
+    color: white;
+    font-size: x-large;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+}
+
+#message {
+    width: 350px;
+    height: 100px;
 }
