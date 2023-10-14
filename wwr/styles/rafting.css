@@ -265,6 +265,16 @@ label, input {
     display: block;
 }
 
+.flexform {
+    display: flex;
+    width: 100%;
+}
+
+.col1 {
+    float: left;
+    margin-right: 20px;
+}
+
 input[type="radio"] {
     display: inline-block;
     margin-right: 10px;
