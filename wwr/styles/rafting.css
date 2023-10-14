@@ -172,6 +172,11 @@ figure figcaption {
     margin-right: auto;
 }
 
+.column3 figure {
+    display: flex;
+    flex-direction: column;
+}
+
 footer p {
     text-align: left;
 }
@@ -231,14 +236,26 @@ iframe {
     margin-top: -20px;
 }
 
+.column3 h2 {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    left: 700px;
+}
+
 .column3 {
+    display: flex;
+    flex-direction: row;
     margin-top: -82px;
 }
 
 .column3 img {
+    display: flex;
+    flex-direction: row;
     width: 200px;
     height: 150px;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 form {
