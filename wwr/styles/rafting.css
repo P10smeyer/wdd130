@@ -113,6 +113,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .history h2 {
@@ -124,8 +125,10 @@ nav a:hover {
 .history img {
     width: 350px;
     height: 350px;
-    margin: 10px;
-    margin-left: 550px;
+    float: left;
+    /* margin: 10px;
+    margin-left: 550px; */
+    margin-left: 15%;
 }
 
 .history p {
@@ -135,8 +138,9 @@ nav a:hover {
     width: 30%;
     float: right;
     padding: 10px;
-    margin-right: 15%;
-    text-align: justify;
+    margin-right: 10%;
+    margin-top: -1%;
+    text-align: center;
     font-weight: bold;
     font-size: 2rem;    
 }
@@ -404,3 +408,43 @@ main a:hover {
     color: purple;
 }
 
+.index-fieldset {
+    margin-top: -20px;
+    text-align: left;
+}
+
+.index-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(102, 101, 101, 0.8);
+    background-color: rgb(228, 220, 220);
+}
+
+.fieldset h3 {
+    margin-top: -5px;
+}
+
+.index-grid form {
+    margin: 0 auto;
+    width: min-content;
+}
+
+.index-row2col1 {
+    width: 100%;
+    grid-column-start: 1;
+    column-span: all;
+    text-align: center;
+    font-weight: bold;
+}
+
+.index-row2center, .index-row1col2 {
+    width: 100%;
+    grid-column-start: 2;
+    column-span: all;
+    text-align: center;
+    font-weight: bold;
+}
